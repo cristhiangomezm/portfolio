@@ -1,0 +1,20 @@
+ul li {
+  list-style: none;
+}
+
+.navmenu {
+  padding: 20px 20px;
+  max-width: 1024px;
+}
+
+.navmenu ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+strong {
+  color: #e24747;
+}
