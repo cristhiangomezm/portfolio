@@ -1,9 +1,32 @@
+@font-face {
+  font-family: "clear-sans";
+  src: url("/fonts/clear-sans/ClearSans-Bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "clear-sans";
+  src: url("/fonts/clear-sans/ClearSans-BoldItalic-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: clear-sans, "Times New Roman", Times, serif;
+}
+
 ul li {
   list-style: none;
 }
 
 .navmenu {
-  padding: 20px 20px;
+  margin: 0 auto;
+  padding: 20px;
   max-width: 1024px;
 }
 
@@ -15,6 +38,26 @@ ul li {
   justify-content: space-evenly;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-page {
+  padding: 20px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 strong {
   color: #e24747;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.projects-list {
+  height: 400px;
+  background-color: #e8ebe4;
 }
