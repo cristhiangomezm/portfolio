@@ -12,6 +12,14 @@
   font-style: italic;
 }
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -27,7 +35,7 @@ ul li {
 
 .navmenu {
   margin: 0 auto;
-  padding: 40px;
+  padding: 40px 20px;
   max-width: 1024px;
   justify-content: center;
 }
@@ -45,7 +53,8 @@ a {
   color: #1d2021;
 }
 
-.main-page {
+.main-page,
+.projects-list {
   padding: 20px;
   max-width: 1024px;
   margin: 0 auto;
@@ -58,13 +67,11 @@ strong {
 h1 {
   color: #1d2021;
   margin-top: 0;
-  font-size: 5.063rem;
+  font-size: 4.236rem;
 }
 
-.projects-list {
-  height: 700px;
+.project-list-container {
   background-color: #e8ebe4;
-  padding: 20px;
 }
 
 .project-container {
@@ -73,6 +80,7 @@ h1 {
 }
 
 .project-card {
+  max-width: 360px;
   width: 100%;
   height: 150px;
   background-color: white;
@@ -95,7 +103,29 @@ h1 {
 .projects-title::after {
   content: ">";
 }
-@media screen and (min-width: 600px) {
+
+.projects-subtitle::before {
+  content: "</";
+}
+
+.projects-subtitle::after {
+  content: ">";
+}
+@media screen and (min-width: 360px) {
+  h1 {
+    margin-top: 2rem;
+    font-size: 5.063rem;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  h1 {
+    margin-top: 2rem;
+    font-size: 7.594rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
   h1 {
     margin-top: 2rem;
     font-size: 11.089rem;
