@@ -1,6 +1,7 @@
 @font-face {
   font-family: "clear-sans";
-  src: url("/fonts/clear-sans/ClearSans-Bold-webfont.woff") format("woff");
+  src: url("/portfolio/fonts/clear-sans/ClearSans-Bold-webfont.woff")
+    format("woff");
   font-weight: bold;
   font-style: normal;
 }
