@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Mesa_de_trabajo_3);
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-2, .cls-5, .cls-6 {
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        fill: #303030;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #3f3f3f;
+        stroke: #b3b3b3;
+        font-size: 125px;
+      }
+
+      .cls-5, .cls-6 {
+        font-family: Futura-Medium, Futura;
+        font-weight: 500;
+      }
+
+      .cls-6 {
+        stroke: #000;
+        font-size: 140px;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+
+      .cls-8 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-Mesa_de_trabajo_3">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="Mesa_de_trabajo_3" data-name="Mesa de trabajo 3" class="cls-1">
+    <rect class="cls-4" width="512" height="512"/>
+    <g id="Capa_2" data-name="Capa 2" transform="translate(-532)">
+      <g id="Group_1" data-name="Group 1">
+        <g id="Rectangle_1" data-name="Rectangle 1" class="cls-2" transform="translate(532 0)">
+          <rect class="cls-7" width="512" height="512.5"/>
+          <rect class="cls-8" x="2" y="2" width="508" height="508.5"/>
+        </g>
+        <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-3" width="167" height="505" transform="translate(704 4)"/>
+        <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-3" width="165" height="167" transform="translate(875 171)"/>
+        <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-3" width="164" height="164" transform="translate(536 4)"/>
+        <rect id="Rectangle_5" data-name="Rectangle 5" class="cls-3" width="164" height="167" transform="translate(536 342)"/>
+        <rect id="Rectangle_6" data-name="Rectangle 6" class="cls-4" width="512" height="4" transform="translate(532 167.5)"/>
+        <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-4" width="512" height="4" transform="translate(532 338)"/>
+        <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-4" width="512" height="4" transform="translate(700 512) rotate(-90)"/>
+        <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-4" width="512" height="4" transform="translate(871 512) rotate(-90)"/>
+        <text id="_6" data-name="6" class="cls-5" transform="translate(893 337.086)"><tspan x="28.926" y="130">6</tspan></text>
+        <text id="_9" data-name="9" class="cls-5" transform="translate(893 -3.914)"><tspan x="28.926" y="130">9</tspan></text>
+        <text id="S" class="cls-6" transform="translate(544 -6.543)"><tspan x="28.189" y="145">S</tspan></text>
+        <text id="U" class="cls-6" transform="translate(720 -6.543)"><tspan x="17.286" y="145">U</tspan></text>
+        <text id="D" class="cls-6" transform="translate(720 164.457)"><tspan x="18.175" y="145">D</tspan></text>
+        <text id="O" class="cls-6" transform="translate(892 164.457)"><tspan x="6.451" y="145">O</tspan></text>
+        <text id="K" class="cls-6" transform="translate(544 334.457)"><tspan x="22.618" y="145">K</tspan></text>
+        <text id="U-2" data-name="U" class="cls-6" transform="translate(720 334.457)"><tspan x="17.286" y="145">U</tspan></text>
+        <text id="_3" data-name="3" class="cls-5" transform="translate(545 166.086)"><tspan x="28.926" y="130">3</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
