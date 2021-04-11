@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cristhian Gomez</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
@@ -23,7 +25,7 @@
     </div>
     <div class="main-container">
         <section class="main-page">
-            <h1 class="first-message">Hi, you found me! I'm an Industrial Engineer
+            <h1 class="first-message">Hi, you found me! I'm <strong>Cristhian Gómez</strong>, an Industrial Engineer
             how loves <strong>Software Development</strong>
             </h1>
         </section>
@@ -31,25 +33,25 @@
             <section class="projects-list">
                 <h2 class="projects-title">Projects</h2>
                 <div class="projects-container">
-                    <div class="project-card">
-                        <img src="/resources/ic_launcher_black-web.svg" alt="" class="thumbnail">
-                        <h2>Sudoku</h2>
-                        <p>Minimalistic Sudoku game published in the Google Play Store</p>
-                    </div>
-                    <div class="project-card">
-
-                    </div>
+                    <a class="card" href="https://play.google.com/store/apps/details?id=co.appengine.games.sudokuland" target="_blank">
+                        <img src="/resources/sudoku-logo.svg" alt="Sudoku Game Logo">
+                        <div class="card__body">
+                            <h2 class="card__header">Sudoku</h2>
+                            <p class="card__description">Minimalistic Sudoku game published in the Google Play Store</p>
+                            <ul class="card__list">
+                                <li class="card__item">Java</li>
+                                <li class="card__item">Google Admob</li>
+                                <li class="card__item">Android</li>
+                            </ul>
+                        </div>
+                    </a>
                 </div>
-    
                 <h2 class="projects-subtitle">Projects</h2>
-    
             </section>
         </div>
     </div>
     <div class="footer-container" id="contact-section">
         <footer class="footer">
-            <p class="greetings">Say hello</p>
-            <div>
                 <ul class="social-network-menu">
                     <li>
                         <a href="https://www.linkedin.com/in/ccgm594/" target="_blank">
@@ -61,9 +63,31 @@
                             <img src="/resources/icons8-twitter.svg" alt="Twitter icon">
                         </a>
                     </li>
-                    <li><a href = "mailto: ccgm.594@gmail.com">ccgm.594@gmail.com</a></li>
                 </ul>
-            </div>
+            <div class="form-container">  
+                <form id="contact" action="" method="post">
+                  <h3>Contact Me</h3>
+                  <h4>Please let me know how can I help you</h4>
+                  <fieldset>
+                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+                  </fieldset>
+                  <fieldset>
+                    <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                  </fieldset>
+                </form>
+              </div>
         </footer>
     </div>
 </body>
