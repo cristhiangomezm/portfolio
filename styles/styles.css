@@ -77,7 +77,6 @@ h1 {
 
 .projects-container {
   display: flex;
-  flex-direction: column;
   overflow: auto;
 }
 
@@ -102,15 +101,28 @@ h1 {
   margin: 0 auto;
   padding: 20px;
   display: flex;
+  flex-direction: column-reverse;
   justify-content: space-evenly;
   align-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    flex-direction: row;
+  }
 }
 
 .social-network-menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+}
+
+@media screen and (min-witdh: 1024px) {
+  .social-network-menu {
+    justify-content: space-around;
+  }
 }
 
 .social-network-menu li {
@@ -159,6 +171,10 @@ h1 {
   transition: transform 0.2s;
 }
 
+.card__img {
+  margin: 0;
+}
+
 .card:hover {
   transform: scale(1.02);
 }
@@ -190,9 +206,16 @@ h1 {
 /* Contact Form */
 
 .form-container {
-  max-width: 400px;
+  max-width: 360px;
   width: 100%;
+  margin: 0 auto;
   position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+  .form-container {
+    margin: 0 0;
+  }
 }
 
 #contact input[type="text"],
