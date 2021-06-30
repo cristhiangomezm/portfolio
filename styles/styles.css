@@ -180,6 +180,8 @@ h1 {
 }
 
 .card__img {
+  height: 143px;
+  width: 143px;
 }
 
 .card:hover {
